@@ -6,7 +6,6 @@ const añoActual = 2025;
 let edad = null;
 
 
-// Validación básica
 if (nacimiento && !isNaN(nacimiento)) {
 edad = añoActual - parseInt(nacimiento);
 }
